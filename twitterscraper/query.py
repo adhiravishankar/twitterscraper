@@ -13,8 +13,8 @@ from twitterscraper.tweet import Tweet
 ua = UserAgent()
 HEADERS_LIST = [ua.chrome, ua.google, ua['google chrome'], ua.firefox, ua.ff]
 
-INIT_URL = "https://twitter.com/search?f=tweets&vertical=default&q={q}"
-RELOAD_URL = "https://twitter.com/i/search/timeline?f=tweets&vertical=" \
+INIT_URL = "https://twitter.com/search?l=en&f=tweets&vertical=default&q={q}"
+RELOAD_URL = "https://twitter.com/i/search/timeline?l=en&f=tweets&vertical=" \
              "default&include_available_features=1&include_entities=1&" \
              "reset_error_state=false&src=typd&max_position={pos}&q={q}"
 
